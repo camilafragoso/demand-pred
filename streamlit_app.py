@@ -37,7 +37,7 @@ def rank_demand(region_data):
 # Streamlit App
 st.title('Rides Demand Map')
 
-st.markdown("This app is a simplified batch implementation designed to help Bolt and ride-hailing platforms to optimize driver routes by showing their proximity to various regions. The tool uses historical demand data and a machine learning model to predict demand for each region considering the day of the week and time. The regions are represented on the map by the red dots by the median of their geographical points and are sized by the demand on that selected day and time. The driver location is represented by the blue dot")
+st.markdown("This app is a simplified batch implementation designed to help Bolt and ride-hailing platforms to optimize driver routes by showing their proximity to various regions. The tool uses historical demand data and a machine learning model to predict demand for each region considering the day of the week and time. The regions are represented on the map by the red dots by the median of their geographical points and are sized by the demand on that selected day and time. The driver location is represented by the blue dot.")
 
 # Input for the user
 st.sidebar.header('Input Driver Location and Time')
